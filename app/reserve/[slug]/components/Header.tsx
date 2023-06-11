@@ -19,7 +19,7 @@ export default function Header({
 
   return (
     <div>
-      <h3 className="font-bold">You're almost done!</h3>
+      <h3 className="font-bold">You&apos;re almost done!</h3>
       <div className="mt-5 flex">
         <img src={image} alt="" className="w-32 h-18 rounded" />
         <div className="ml-4">

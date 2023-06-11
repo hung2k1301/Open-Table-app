@@ -4,7 +4,7 @@ import { ChangeEvent, useEffect, useState } from "react";
 import useReservation from "../../../../hooks/useReservation";
 import { CircularProgress } from "@mui/material";
 
-export default function ({
+export default function Form({
   date,
   partySize,
   slug,
