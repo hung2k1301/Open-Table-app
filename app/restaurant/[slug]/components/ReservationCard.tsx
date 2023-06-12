@@ -69,7 +69,6 @@ export default function ReservationCard({
         <select
           name=""
           className="py-3 border-b font-light"
-          id=""
           value={partySize}
           onChange={e => setPartySize(e.target.value)}
         >
@@ -95,7 +94,6 @@ export default function ReservationCard({
           <label htmlFor="">Time</label>
           <select
             name=""
-            id=""
             className="py-3 border-b font-light"
             value={time}
             onChange={e => setTime(e.target.value)}

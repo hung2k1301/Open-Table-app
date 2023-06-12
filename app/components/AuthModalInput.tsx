@@ -23,7 +23,6 @@ export default function AuthModalInput({
           <input
             type="text"
             name="firstName"
-            id=""
             className="border rounded p-2 py-3 w-[49%]"
             placeholder="First Name"
             value={inputs.firstName}
@@ -32,7 +31,6 @@ export default function AuthModalInput({
           <input
             type="text"
             name="lastName"
-            id=""
             className="border rounded p-2 py-3 w-[49%]"
             placeholder="Last Name"
             value={inputs.lastName}
@@ -42,9 +40,8 @@ export default function AuthModalInput({
       )}
       <div className="my-3 flex justify-between text-sm">
         <input
-          type="text"
+          type="email"
           name="email"
-          id=""
           className="border rounded p-2 py-3 w-full"
           placeholder="Email"
           value={inputs.email}
@@ -56,7 +53,6 @@ export default function AuthModalInput({
           <input
             type="text"
             name="phone"
-            id=""
             className="border rounded p-2 py-3 w-[49%]"
             placeholder="Phone"
             value={inputs.phone}
@@ -65,7 +61,6 @@ export default function AuthModalInput({
           <input
             type="text"
             name="city"
-            id=""
             className="border rounded p-2 py-3 w-[49%]"
             placeholder="City"
             value={inputs.city}
@@ -77,7 +72,6 @@ export default function AuthModalInput({
         <input
           type="password"
           name="password"
-          id=""
           className="border rounded p-2 py-3 w-full"
           placeholder="Password"
           value={inputs.password}
