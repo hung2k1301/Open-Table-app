@@ -34,7 +34,7 @@ export default function useReservation() {
 
     try {
       const response = await axios.post(
-        `http://localhost:3000/api/restaurant/${slug}/reserve`,
+        `${process.env.NEXT_PUBLIC_API_URL}/api/restaurant/${slug}/reserve`,
         {
           bookerFirstName,
           bookerLastName,
